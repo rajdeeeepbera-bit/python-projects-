@@ -1,0 +1,67 @@
+numbers =[12,34,56,78,89,90]
+for number in numbers:
+	if number == 56:
+		print("found")
+		break
+	
+		
+else:
+	print("sorry not found")
+	
+
+numbers=[12,34,56,78,90]
+for num in numbers:
+	if num == 134:
+		print("found")
+		break
+		
+else:
+	print("Not found")
+	
+	
+	
+passwords=["app23","Hello","python"]
+
+for password in passwords:
+	if password=="Hello":
+		print(password)
+		break
+		
+else:
+	print("Not found")
+	
+	
+	
+for i in range(4):
+	if i == 3:
+		break
+		
+	print(i,"done")
+else:
+	print("not found")
+	
+			
+for i in range (12):
+	print(i)
+	
+else:
+	print("jihinka chika jhinka chika nin ka chika chinkang ka")
+	
+			
+numbers = [12, 34, 56, 78, 90]
+
+target = int(input("Enter a number to search: "))
+
+for num in numbers:
+    if num == target:
+        print(target,"is in the list")
+        break
+else:
+    print("Not Found")					
+		
+
+for i in range(4):
+	print(i)#prints each iteration
+	
+else:
+	print("done")#prints when the loop normally finished
