@@ -1,0 +1,19 @@
+name = input("Enter your name:")
+marks = int(input("Enter your marks:"))
+age = int(input("Enter your age:"))
+
+info=(name,marks,age)
+print(info)
+
+for item in info:
+	print(item)
+	
+if name == "Rajdeep":
+	def greet():
+		print("Hello",name,"sir")
+		
+	greet()
+
+	
+else:
+	print("Hi")
