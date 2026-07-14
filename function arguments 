@@ -1,0 +1,26 @@
+#default args
+def average(a=5,b=1):
+	print((a+b)/2)
+	
+average()
+
+def average(a,b=1):
+	print((a+b)/2)
+	
+average(2)
+
+def average(b,a=4):
+	print((a+b)/2)
+	
+average(2)
+
+#keyword args
+def average(a,b):
+	print((a+b)/2)
+	
+average(a=4,b=6)
+
+def average(af,bg):
+	print((af+bg)/2)
+	
+average(af=4,bg=5)
