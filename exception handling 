@@ -1,0 +1,13 @@
+class PassWordError(Exception):
+	pass
+	
+	
+password=input("Entrr the password:")
+
+
+	
+if len(password) < 8:
+	raise PassWordError(f"password should be in 8 digits but your passord is {len(password)} digits")
+	
+else:
+	print("system unlocked")
