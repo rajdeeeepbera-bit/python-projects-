@@ -1,0 +1,17 @@
+num = int(input("Enter a number: "))
+num1 = int(input("Enter a second number:"))
+num2 = int(input("Enter a third number:"))
+
+nums = [num,num1,num2]
+l = []
+z = []
+for i in nums:
+	print(i)
+	if i %2 == 0:
+		l.append(i)
+		
+	else :
+		z.append(i)
+		
+print(l)
+print(z)
